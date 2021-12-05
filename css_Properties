@@ -18,6 +18,10 @@ in main div:
     flex:2; in that child div. and if want 3 times bigger than other child div do flex:3;  (3:1:1)
         .child_1{flex:2}
 //order
+2.1 if we want one of the child_1 div have width 80% then other and to make not squizing (ghatnu) 
+    then do
+        .child_1{flex: 0 0 80%;}
+//order
 3. if we want child_2 to come first: 
     then we do order like
     .child_2{
@@ -46,15 +50,15 @@ in main div:
     * indicates that for all child of main_div(child_1,child_2,child_3) to make flex-basis =30%(10% for margin);
     
  
- 
- //responsive_Part
+    
+   //responsive_Part
  --remaining
-5. if we want all the child div of equall width: 
+ 
+
+5. if we want child div to : 
     then do
     flex:1; in all child div.
 
-   
-  
- 
+
     
 
