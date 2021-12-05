@@ -1,1 +1,60 @@
+Rules:(Flex)
+To use fles properties, use display:flex, 
+in main div:
+
+<div class"main_div">
+<div class"child_1">child_1</div>
+<div class"child_2">child_2</div>
+<div class"child_3">child_3</div>
+</div>
+
+//size(equall width)
+1. if we want all the child div of equall width: 
+    then do
+    flex:1; in all child div.
+    .main_div{flex:1}
+2. if we want one of the child_1 div double of other like 2:1:1: 
+    then do
+    flex:2; in that child div. and if want 3 times bigger than other child div do flex:3;  (3:1:1)
+        .child_1{flex:2}
+//order
+3. if we want child_2 to come first: 
+    then we do order like
+    .child_2{
+    order:1; or want in second order:2; or in third order:3;}
+    
+//Margin in between the div (column) like:
+4. if we want Margin in between the div (column) in the child div: 
+    then do
+    justify-content:space-between; in main div.
+    
+    .main_div{
+    display:flex;
+    justify-content:space-between;
+    }
+    
+    and in child div all child div
+    do:
+    flex-basis:30%;(10% for margin)
+     .child_div{
+         flex-basis:30%;(10% for margin)
+    }
+    or:
+    .main_div > *{
+         flex-basis:30%;(10% for margin)
+       }
+    * indicates that for all child of main_div(child_1,child_2,child_3) to make flex-basis =30%(10% for margin);
+    
+ 
+ 
+ //responsive_Part
+ --remaining
+5. if we want all the child div of equall width: 
+    then do
+    flex:1; in all child div.
+
+   
+  
+ 
+    
 
