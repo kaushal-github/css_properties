@@ -60,5 +60,7 @@ in main div:
     flex:1; in all child div.
 
 
+
+##### min(), max(), and clamp() are CSS magic! ::: https://www.youtube.com/watch?v=U9VF-4euyRo
     
 
